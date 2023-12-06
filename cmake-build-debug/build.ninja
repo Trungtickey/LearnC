@@ -109,6 +109,48 @@ build CMakeFiles/tickey.dir/SS3/BT6_-_SS3.c.obj: C_COMPILER__tickey_unscanned_De
   OBJECT_DIR = CMakeFiles\tickey.dir
   OBJECT_FILE_DIR = CMakeFiles\tickey.dir\SS3
 
+build CMakeFiles/tickey.dir/SS4/BT1_-_SS4.c.obj: C_COMPILER__tickey_unscanned_Debug C$:/Users/hp/CLionProjects/tickey/SS4/BT1$ -$ SS4.c || cmake_object_order_depends_target_tickey
+  DEP_FILE = CMakeFiles\tickey.dir\SS4\BT1_-_SS4.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\tickey.dir
+  OBJECT_FILE_DIR = CMakeFiles\tickey.dir\SS4
+
+build CMakeFiles/tickey.dir/SS4/BT2_-_SS4.c.obj: C_COMPILER__tickey_unscanned_Debug C$:/Users/hp/CLionProjects/tickey/SS4/BT2$ -$ SS4.c || cmake_object_order_depends_target_tickey
+  DEP_FILE = CMakeFiles\tickey.dir\SS4\BT2_-_SS4.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\tickey.dir
+  OBJECT_FILE_DIR = CMakeFiles\tickey.dir\SS4
+
+build CMakeFiles/tickey.dir/SS4/BT3_-_ss4.c.obj: C_COMPILER__tickey_unscanned_Debug C$:/Users/hp/CLionProjects/tickey/SS4/BT3$ -$ ss4.c || cmake_object_order_depends_target_tickey
+  DEP_FILE = CMakeFiles\tickey.dir\SS4\BT3_-_ss4.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\tickey.dir
+  OBJECT_FILE_DIR = CMakeFiles\tickey.dir\SS4
+
+build CMakeFiles/tickey.dir/SS4/BT7_-_ss4.c.obj: C_COMPILER__tickey_unscanned_Debug C$:/Users/hp/CLionProjects/tickey/SS4/BT7$ -$ ss4.c || cmake_object_order_depends_target_tickey
+  DEP_FILE = CMakeFiles\tickey.dir\SS4\BT7_-_ss4.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\tickey.dir
+  OBJECT_FILE_DIR = CMakeFiles\tickey.dir\SS4
+
+build CMakeFiles/tickey.dir/SS4/BT4_-_ss4.c.obj: C_COMPILER__tickey_unscanned_Debug C$:/Users/hp/CLionProjects/tickey/SS4/BT4$ -$ ss4.c || cmake_object_order_depends_target_tickey
+  DEP_FILE = CMakeFiles\tickey.dir\SS4\BT4_-_ss4.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\tickey.dir
+  OBJECT_FILE_DIR = CMakeFiles\tickey.dir\SS4
+
+build CMakeFiles/tickey.dir/SS4/BT5_-_ss4.c.obj: C_COMPILER__tickey_unscanned_Debug C$:/Users/hp/CLionProjects/tickey/SS4/BT5$ -$ ss4.c || cmake_object_order_depends_target_tickey
+  DEP_FILE = CMakeFiles\tickey.dir\SS4\BT5_-_ss4.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\tickey.dir
+  OBJECT_FILE_DIR = CMakeFiles\tickey.dir\SS4
+
+build CMakeFiles/tickey.dir/SS4/BT6_-_ss6.c.obj: C_COMPILER__tickey_unscanned_Debug C$:/Users/hp/CLionProjects/tickey/SS4/BT6$ -$ ss6.c || cmake_object_order_depends_target_tickey
+  DEP_FILE = CMakeFiles\tickey.dir\SS4\BT6_-_ss6.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\tickey.dir
+  OBJECT_FILE_DIR = CMakeFiles\tickey.dir\SS4
+
 
 # =============================================================================
 # Link build statements for STATIC_LIBRARY target tickey
@@ -117,7 +159,7 @@ build CMakeFiles/tickey.dir/SS3/BT6_-_SS3.c.obj: C_COMPILER__tickey_unscanned_De
 #############################################
 # Link the static library libtickey.a
 
-build libtickey.a: C_STATIC_LIBRARY_LINKER__tickey_Debug CMakeFiles/tickey.dir/bai_giang.c.obj CMakeFiles/tickey.dir/Bài_th?c_hành_2.c.obj CMakeFiles/tickey.dir/Bài_th?c_hành_3.c.obj CMakeFiles/tickey.dir/SS2/BT1_-_SS2.c.obj CMakeFiles/tickey.dir/SS3/BT1_-_ss3.c.obj CMakeFiles/tickey.dir/SS3/BT2_-_ss3.c.obj CMakeFiles/tickey.dir/SS3/BT3_-_SS3.c.obj CMakeFiles/tickey.dir/SS3/BT4_-_ss3.c.obj CMakeFiles/tickey.dir/SS3/BT5_-_SS3.c.obj CMakeFiles/tickey.dir/SS3/BT6_-_SS3.c.obj
+build libtickey.a: C_STATIC_LIBRARY_LINKER__tickey_Debug CMakeFiles/tickey.dir/bai_giang.c.obj CMakeFiles/tickey.dir/Bài_th?c_hành_2.c.obj CMakeFiles/tickey.dir/Bài_th?c_hành_3.c.obj CMakeFiles/tickey.dir/SS2/BT1_-_SS2.c.obj CMakeFiles/tickey.dir/SS3/BT1_-_ss3.c.obj CMakeFiles/tickey.dir/SS3/BT2_-_ss3.c.obj CMakeFiles/tickey.dir/SS3/BT3_-_SS3.c.obj CMakeFiles/tickey.dir/SS3/BT4_-_ss3.c.obj CMakeFiles/tickey.dir/SS3/BT5_-_SS3.c.obj CMakeFiles/tickey.dir/SS3/BT6_-_SS3.c.obj CMakeFiles/tickey.dir/SS4/BT1_-_SS4.c.obj CMakeFiles/tickey.dir/SS4/BT2_-_SS4.c.obj CMakeFiles/tickey.dir/SS4/BT3_-_ss4.c.obj CMakeFiles/tickey.dir/SS4/BT7_-_ss4.c.obj CMakeFiles/tickey.dir/SS4/BT4_-_ss4.c.obj CMakeFiles/tickey.dir/SS4/BT5_-_ss4.c.obj CMakeFiles/tickey.dir/SS4/BT6_-_ss6.c.obj
   LANGUAGE_COMPILE_FLAGS = -g
   OBJECT_DIR = CMakeFiles\tickey.dir
   POST_BUILD = cd .

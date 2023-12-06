@@ -13,4 +13,11 @@ add_library(tickey "bai giang.c"
         "SS3/BT3 - SS3.c"
         "SS3/BT4 - ss3.c"
         "SS3/BT5 - SS3.c"
-        "SS3/BT6 - SS3.c")
+        "SS3/BT6 - SS3.c"
+        "SS4/BT1 - SS4.c"
+        "SS4/BT2 - SS4.c"
+        "SS4/BT3 - ss4.c"
+        "SS4/BT7 - ss4.c"
+        "SS4/BT4 - ss4.c"
+        "SS4/BT5 - ss4.c"
+        "SS4/BT6 - ss6.c")
