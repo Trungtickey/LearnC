@@ -73,6 +73,12 @@ build CMakeFiles/tickey.dir/BT1_-_SS2.c.obj: C_COMPILER__tickey_unscanned_Debug 
   OBJECT_DIR = CMakeFiles\tickey.dir
   OBJECT_FILE_DIR = CMakeFiles\tickey.dir
 
+build CMakeFiles/tickey.dir/SS3/BT1_-_ss3.c.obj: C_COMPILER__tickey_unscanned_Debug C$:/Users/hp/CLionProjects/tickey/SS3/BT1$ -$ ss3.c || cmake_object_order_depends_target_tickey
+  DEP_FILE = CMakeFiles\tickey.dir\SS3\BT1_-_ss3.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\tickey.dir
+  OBJECT_FILE_DIR = CMakeFiles\tickey.dir\SS3
+
 
 # =============================================================================
 # Link build statements for STATIC_LIBRARY target tickey
@@ -81,7 +87,7 @@ build CMakeFiles/tickey.dir/BT1_-_SS2.c.obj: C_COMPILER__tickey_unscanned_Debug 
 #############################################
 # Link the static library libtickey.a
 
-build libtickey.a: C_STATIC_LIBRARY_LINKER__tickey_Debug CMakeFiles/tickey.dir/bai_giang.c.obj CMakeFiles/tickey.dir/Bài_th?c_hành_2.c.obj CMakeFiles/tickey.dir/Bài_th?c_hành_3.c.obj CMakeFiles/tickey.dir/BT1_-_SS2.c.obj
+build libtickey.a: C_STATIC_LIBRARY_LINKER__tickey_Debug CMakeFiles/tickey.dir/bai_giang.c.obj CMakeFiles/tickey.dir/Bài_th?c_hành_2.c.obj CMakeFiles/tickey.dir/Bài_th?c_hành_3.c.obj CMakeFiles/tickey.dir/BT1_-_SS2.c.obj CMakeFiles/tickey.dir/SS3/BT1_-_ss3.c.obj
   LANGUAGE_COMPILE_FLAGS = -g
   OBJECT_DIR = CMakeFiles\tickey.dir
   POST_BUILD = cd .
