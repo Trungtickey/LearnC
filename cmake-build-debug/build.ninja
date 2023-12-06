@@ -67,14 +67,44 @@ build CMakeFiles/tickey.dir/Bài_th?c_hành_3.c.obj: C_COMPILER__tickey_unscanned_
   OBJECT_DIR = CMakeFiles\tickey.dir
   OBJECT_FILE_DIR = CMakeFiles\tickey.dir
 
-build CMakeFiles/tickey.dir/BT1_-_SS2.c.obj: C_COMPILER__tickey_unscanned_Debug C$:/Users/hp/CLionProjects/tickey/BT1$ -$ SS2.c || cmake_object_order_depends_target_tickey
-  DEP_FILE = CMakeFiles\tickey.dir\BT1_-_SS2.c.obj.d
+build CMakeFiles/tickey.dir/SS2/BT1_-_SS2.c.obj: C_COMPILER__tickey_unscanned_Debug C$:/Users/hp/CLionProjects/tickey/SS2/BT1$ -$ SS2.c || cmake_object_order_depends_target_tickey
+  DEP_FILE = CMakeFiles\tickey.dir\SS2\BT1_-_SS2.c.obj.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\tickey.dir
-  OBJECT_FILE_DIR = CMakeFiles\tickey.dir
+  OBJECT_FILE_DIR = CMakeFiles\tickey.dir\SS2
 
 build CMakeFiles/tickey.dir/SS3/BT1_-_ss3.c.obj: C_COMPILER__tickey_unscanned_Debug C$:/Users/hp/CLionProjects/tickey/SS3/BT1$ -$ ss3.c || cmake_object_order_depends_target_tickey
   DEP_FILE = CMakeFiles\tickey.dir\SS3\BT1_-_ss3.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\tickey.dir
+  OBJECT_FILE_DIR = CMakeFiles\tickey.dir\SS3
+
+build CMakeFiles/tickey.dir/SS3/BT2_-_ss3.c.obj: C_COMPILER__tickey_unscanned_Debug C$:/Users/hp/CLionProjects/tickey/SS3/BT2$ -$ ss3.c || cmake_object_order_depends_target_tickey
+  DEP_FILE = CMakeFiles\tickey.dir\SS3\BT2_-_ss3.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\tickey.dir
+  OBJECT_FILE_DIR = CMakeFiles\tickey.dir\SS3
+
+build CMakeFiles/tickey.dir/SS3/BT3_-_SS3.c.obj: C_COMPILER__tickey_unscanned_Debug C$:/Users/hp/CLionProjects/tickey/SS3/BT3$ -$ SS3.c || cmake_object_order_depends_target_tickey
+  DEP_FILE = CMakeFiles\tickey.dir\SS3\BT3_-_SS3.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\tickey.dir
+  OBJECT_FILE_DIR = CMakeFiles\tickey.dir\SS3
+
+build CMakeFiles/tickey.dir/SS3/BT4_-_ss3.c.obj: C_COMPILER__tickey_unscanned_Debug C$:/Users/hp/CLionProjects/tickey/SS3/BT4$ -$ ss3.c || cmake_object_order_depends_target_tickey
+  DEP_FILE = CMakeFiles\tickey.dir\SS3\BT4_-_ss3.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\tickey.dir
+  OBJECT_FILE_DIR = CMakeFiles\tickey.dir\SS3
+
+build CMakeFiles/tickey.dir/SS3/BT5_-_SS3.c.obj: C_COMPILER__tickey_unscanned_Debug C$:/Users/hp/CLionProjects/tickey/SS3/BT5$ -$ SS3.c || cmake_object_order_depends_target_tickey
+  DEP_FILE = CMakeFiles\tickey.dir\SS3\BT5_-_SS3.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\tickey.dir
+  OBJECT_FILE_DIR = CMakeFiles\tickey.dir\SS3
+
+build CMakeFiles/tickey.dir/SS3/BT6_-_SS3.c.obj: C_COMPILER__tickey_unscanned_Debug C$:/Users/hp/CLionProjects/tickey/SS3/BT6$ -$ SS3.c || cmake_object_order_depends_target_tickey
+  DEP_FILE = CMakeFiles\tickey.dir\SS3\BT6_-_SS3.c.obj.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\tickey.dir
   OBJECT_FILE_DIR = CMakeFiles\tickey.dir\SS3
@@ -87,7 +117,7 @@ build CMakeFiles/tickey.dir/SS3/BT1_-_ss3.c.obj: C_COMPILER__tickey_unscanned_De
 #############################################
 # Link the static library libtickey.a
 
-build libtickey.a: C_STATIC_LIBRARY_LINKER__tickey_Debug CMakeFiles/tickey.dir/bai_giang.c.obj CMakeFiles/tickey.dir/Bài_th?c_hành_2.c.obj CMakeFiles/tickey.dir/Bài_th?c_hành_3.c.obj CMakeFiles/tickey.dir/BT1_-_SS2.c.obj CMakeFiles/tickey.dir/SS3/BT1_-_ss3.c.obj
+build libtickey.a: C_STATIC_LIBRARY_LINKER__tickey_Debug CMakeFiles/tickey.dir/bai_giang.c.obj CMakeFiles/tickey.dir/Bài_th?c_hành_2.c.obj CMakeFiles/tickey.dir/Bài_th?c_hành_3.c.obj CMakeFiles/tickey.dir/SS2/BT1_-_SS2.c.obj CMakeFiles/tickey.dir/SS3/BT1_-_ss3.c.obj CMakeFiles/tickey.dir/SS3/BT2_-_ss3.c.obj CMakeFiles/tickey.dir/SS3/BT3_-_SS3.c.obj CMakeFiles/tickey.dir/SS3/BT4_-_ss3.c.obj CMakeFiles/tickey.dir/SS3/BT5_-_SS3.c.obj CMakeFiles/tickey.dir/SS3/BT6_-_SS3.c.obj
   LANGUAGE_COMPILE_FLAGS = -g
   OBJECT_DIR = CMakeFiles\tickey.dir
   POST_BUILD = cd .
