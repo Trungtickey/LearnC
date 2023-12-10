@@ -4,9 +4,9 @@ project(tickey C)
 set(CMAKE_C_STANDARD 11)
 
 add_library(tickey "bai giang.c"
-        "bài thực hành1. .cpp"
+        "exe1. .cpp"
         "Bài thực hành 2.c"
-        "Bài thực hành 3.c"
+        "continue.c"
         "SS2/BT1 - SS2.c"
         "SS3/BT1 - ss3.c"
         "SS3/BT2 - ss3.c"
@@ -20,4 +20,10 @@ add_library(tickey "bai giang.c"
         "SS4/BT7 - ss4.c"
         "SS4/BT4 - ss4.c"
         "SS4/BT5 - ss4.c"
-        "SS4/BT6 - ss6.c")
+        "SS4/BT6 - ss6.c"
+        learnwhile.c
+        learndo-while.c
+        "for reapeat.c"
+        "SS6/BT1 - SS6.c"
+        "SS5/BT1 - SS5.c"
+)

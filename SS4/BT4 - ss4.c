@@ -26,7 +26,7 @@ int main() {
                 printf("nam nhuan co 29 ngay");
             } else printf("khong nhuan co 28 ngay");
             break;
-        default: printf("du lieu sai");
+        default: printf("wrong data ");
             return 0;
     }
 }
