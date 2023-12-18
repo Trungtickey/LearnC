@@ -8,9 +8,9 @@
     scanf("%d", &n);
     int a[m][n];
     while(1){
-        printf("Nhap gia tri cac phan tu cua mang:\n");
-        printf("In ra ca gia tri cua mang theo ma tran:\n");
-        printf("In ra cac gia tri cau phan tu la le va tinh tong:\n");
+        printf("1. Nhap gia tri cac phan tu cua mang:\n");
+        printf("2. In ra ca gia tri cua mang theo ma tran:\n");
+        printf("3. In ra cac gia tri cau phan tu la le va tinh tong:\n");
         int chucNang;
         printf("Chon:");
         scanf("%d", &chucNang);

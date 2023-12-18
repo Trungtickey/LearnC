@@ -3,9 +3,9 @@
     int a[100];
     int n, sum;
     while(n<100){
-        printf("Nhap so phan tu can nhap va gia tri cac phan tu:\n");
-        printf("In ra cac gia tri phan tu dang quan ly:\n");
-        printf("In ra cac gia tri cua phan tu chan va tinh tong:\n");
+        printf("1. Nhap so phan tu can nhap va gia tri cac phan tu:\n");
+        printf("2. In ra cac gia tri phan tu dang quan ly:\n");
+        printf("3. In ra cac gia tri cua phan tu chan va tinh tong:\n");
         int chucNang;
         printf("Chon:");
         scanf("%d", &chucNang);
