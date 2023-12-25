@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<string.h>
 //   int main(){
 //    int* pc, c;
 //    c = 18;
@@ -103,20 +104,67 @@
 //    return i;
 //}
 
-    void printReversedArray(int *arr, int size){
-        int *ptr = arr + size - 1;
-        while (ptr >= arr){
-            printf("%d\n", *ptr);
-            ptr--;
-        }
-        printf("\n");
+//    void printReversedArray(int *arr, int size){
+//        int *ptr = arr + size - 1;
+//        while (ptr >= arr){
+//            printf("%d\n", *ptr);
+//            ptr--;
+//        }
+//        printf("\n");
+//    }
+// int main(){
+//    int arr[] = {1, 2, 3, 4, 5};
+//    int size = sizeof(arr) / sizeof(arr[0]);
+//    printf("Mang theo chieu dao nguoc: ");
+//    printReversedArray(arr, size);
+//    return 0;
+//}
+                             // học tiếp bài con trỏ//
+int main() {
+//    char a[] ="Hello", *p1;
+//    p1 = a;
+//    char b[100], *p2;
+//    p2 = b;
+//}
+//    char *p = "Hello";
+//    printf("%d\n", p);
+//    return 0;
+//      char a[]= "Hello", *p;
+//      int i;
+//      p = a;
+//
+//      for (i = 0; i < strlen(p); i++){
+//          if(i % 2 == 0);
+//          printf("array[%d] address : %d\n", i, p+i);
+//      }
+// Truy xuất các kí tự trong chuỗi bằng con trỏ//
+//       char *a = "Hello", *p;
+//       p = a;
+//       printf("%c\n", a[2]);
+//       printf("%c\n", *(p + 2));
+//       printf("%c\n", a[4]);
+//       printf("%c\n", *(p + 4));
+//       return 0;
+//}
+// nhạp chuỗi thông qua mảng//
+//    char str[100];
+//    scanf("%s", str);
+    // Nhập chuỗi bằng con trỏ//
+    char str1[100], *p;
+    p = str1;
+    printf("Nhap chuoi: ");
+    gets(p);
+    puts(p);
+    while(*p !='\0') {
+        scanf("%c", *p);
+        p++;
     }
- int main(){
-    int arr[] = {1, 2, 3, 4, 5};
-    int size = sizeof(arr) / sizeof(arr[0]);
-    printf("Mang theo chieu dao nguoc: ");
-    printReversedArray(arr, size);
-    return 0;
+//    for (int i = 0; i < strlen(p); i++) {
+//        printf("%c", *p);
+//    }
 }
+//********************Khai báo chuỗi bằng con trỏ trong C************************//
+
+
 
 
