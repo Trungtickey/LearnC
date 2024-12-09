@@ -1,0 +1,156 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>BT2</title>
+        <link rel="stylesheet" href="color.css">
+    </head>
+    <body>
+        <h1>Market Research Survey</h1>
+        <h4>please take a few moments to complete this satisfaction survey</h4>
+        <form>
+            <lable for="yearold"><b>What is your age?</b></lable><br>
+            <select name="age" id="age" style="width: 500px">
+                <option value="" selected disabled>18-24</option>
+                <option value="1">18</option>
+                <option value="2">19</option>
+                <option value="3">20</option>
+                <option value="4">21</option>
+                <option value="5">22</option>
+                <option value="6">23</option>
+                <option value="7">24</option>
+            </select><br><br>
+            <label for="money"><b>What is your nearly income ranger?</b></label><br>
+            <select name="money" id="money" style="width: 500px">
+                <option value="" selected disabled>$0 - $25000</option>
+                <option value="1">$1 - $100</option>
+                <option value="2">$100 - $1000</option>
+                <option value="3">$1000 - $10000</option>
+                <option value="4">$10000 - $20000</option>
+                <option value="5">$20000 - $25000</option>
+            </select><br><br>
+            <label for="gender"><b>Gender Identity</b></label><br>
+
+            <input type="radio" id="gender" name="gender">
+            <label>Male</label><br>
+
+            <input type="radio" name="gender">
+            <label>Female</label><br>
+
+            <input type="radio" name="gender">
+            <label>Nonbinary</label><br>
+
+            <input type="radio" name="gender">
+            <lable>Other</lable><br>
+            <input type="text" name="gender"><br>
+
+            <label for="product"><b>Which of the following products have your purchased in the last 2 months. Please check all that apply.</b></label><br>
+
+            <input type="checkbox" name="product">
+            <label>Product 1</label><br>
+
+            <input type="checkbox" name="product">
+            <label>Product 2</label><br>
+
+            <input type="checkbox" name="product">
+            <label>Product 3</label><br><br>
+
+            <label for="answer"><b>How often would you use our new product?</b></label><br>
+
+            <input type="radio" id="answer" name="answer">
+            <label>Daily</label><br>
+
+            <input type="radio" id="answer" name="answer">
+            <label>Weekly</label><br>
+
+            <input type="radio" id="answer" name="answer">
+            <label>Monthly</label><br><br>
+
+            <b>What would you pay for new product?</b><br>
+
+            <label>$</label>
+            <input type="number" name="">
+            <label>.</label>
+
+            <input type="number" name=""><br>
+            <label style="margin-left: 13px;">Dollars</label>
+            <label style="margin-left: 130px;">Cents</label><br><br>
+
+            <lable><b>What features would you like to see in the new product.</b></lable><br>
+
+            <textarea cols="100" row="50"></textarea><br>
+            <label style="font-size: 12px">please rate your level of agreement with the following statement.</label><br>
+
+            <table border=1>
+                <tr>
+                    <th style="width: 500px;"></th>
+                    <th style="text-align: center; width: 150px; font-size: 10px;">Strongly Disagree</th>
+                    <th style="text-align: center; width: 150px; font-size: 10px;">Disagree</th>
+                    <th style="text-align: center; width: 150px; font-size: 10px;">Agree</th>
+                    <th style="text-align: center; width: 150px; font-size: 10px;">Strongly Agree</th>
+                </tr>
+                <tr>
+                    <td><b>Our products are priced fairly.</b></td> 
+                    <td style="text-align: center;">
+                        <input type="radio" name="statement3" value="1"><br>
+                        <label>1</label>
+                    </td>
+                    <td style="text-align: center">
+                        <input type="radio" name="statement3" value="2"><br>
+                        <label>2</label>
+                    </td>
+                    <td style="text-align: center">
+                        <input type="radio" name="statement3" value="3"><br>
+                        <label>3</label>
+                    </td>
+                    <td style="text-align: center">
+                        <input type="radio" name="statement3" value="4"><br>
+                        <label>4</label>
+                    </td>
+                    </tr>
+                </tr>
+                <tr>
+                    <td><b>Our products are high quality.</b></td>
+                    <td style="text-align: center;">
+                        <input type="radio" name="statement3" value="1"><br>
+                        <label>1</label>
+                    </td>
+                    <td style="text-align: center">
+                        <input type="radio" name="statement3" value="2"><br>
+                        <label>2</label>
+                    </td>
+                    <td style="text-align: center">
+                        <input type="radio" name="statement3" value="3"><br>
+                        <label>3</label>
+                    </td>
+                    <td style="text-align: center">
+                        <input type="radio" name="statement3" value="4"><br>
+                        <label>4</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td><b>You would recommend our product to a friend or coworker.</b></td>
+                    <td style="text-align: center;">
+                        <input type="radio" name="statement3" value="1"><br>
+                        <label>1</label>
+                    </td>
+                    <td style="text-align: center">
+                        <input type="radio" name="statement3" value="2"><br>
+                        <label>2</label>
+                    </td>
+                    <td style="text-align: center">
+                        <input type="radio" name="statement3" value="3"><br>
+                        <label>3</label>
+                    </td>
+                    <td style="text-align: center">
+                        <input type="radio" name="statement3" value="4"><br>
+                        <label>4</label>
+                    </td>
+                </tr>
+                </table>
+                <input type="submit" value="Submit">
+    </form>
+        
+    </body>
+    </html>
